@@ -3,7 +3,7 @@ export default function Navigation() {
     <div className="border-b border-[#5e8085]">
       <div className="max-w-7xl mx-auto px-6 py-2 flex flex-row justify-between items-center">
         <img className="h-7 w-7" alt="vic tech week logo" src="/logo.png" />
-        <div className="flex flex-row gap-3">
+        <div className="flex flex-row gap-6">
           <p>Schedule </p>
           <p>FAQ </p>
           <p>Host event </p>

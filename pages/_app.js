@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
             name: "twitter:image",
             content: `https://victoriatechweek.com${preview.src}`,
           },
-          { name: "twitter:title", content: "SF Tech Week" },
+          { name: "twitter:title", content: "Victoria Tech Week" },
         ]}
       />
       <Component {...pageProps} />

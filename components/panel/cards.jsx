@@ -2,7 +2,9 @@ export default function Card() {
   return (
     <div className="max-w-7xl mx-auto px-6 my-8 ">
       <div className=" border border-vibrant flex flex-col justify-center items-center py-6">
-        <h2 className="font-header text-5xl">What it&apos;s all about</h2>
+        <h2 className="font-header text-4xl lg:text-5xl">
+          What it&apos;s all about
+        </h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 py-8 px-6">
           <div className="bg-white border border-vibrant p-5">
             <h3 className="font-header text-3xl">Learning</h3>

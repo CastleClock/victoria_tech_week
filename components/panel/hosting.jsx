@@ -1,6 +1,6 @@
 export default function Hosting() {
   return (
-    <div className=" border border-[#5e8085] flex flex-col justify-center items-start p-6 bg-[#5e8085]">
+    <div className=" border border-vibrant flex flex-col justify-center items-start p-6 bg-vibrant">
       <h3 className="font-header text-5xl text-white">
         Hosting a community meetup?
       </h3>

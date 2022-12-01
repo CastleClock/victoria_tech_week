@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        vibrant: "#1DAC98",
+      },
       fontFamily: {
         header: ["Recoleta", ...defaultTheme.fontFamily.sans],
         copy: ["Suisse", ...defaultTheme.fontFamily.sans],

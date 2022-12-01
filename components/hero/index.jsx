@@ -24,17 +24,17 @@ export default function Hero() {
         {" "}
       </div> */}
       <div className="relative max-w-4xl  tracking-widest mx-auto py-12 px-4 sm:px-6 lg:py-32 lg:px-8 flex flex-col  justify-center items-center text-center bg-transparent">
-        <p className="font-copy text-xl font-medium pb-4">
+        <p className="font-copy text-vibrant text-xl font-medium pb-4">
           June 5th - 12th, 2023
         </p>
         <h1 className="font-header text-8xl">
           Victoria <span className="block">Tech Week</span>
         </h1>
         <div className="flex flex-row gap-6 my-6">
-          <button className="px-6 py-3 text-lg bg-black text-white rounded-3xl hover:bg-white hover:text-black">
+          <button className="px-6 py-3 text-lg bg-black border-2 border-black  text-white rounded-3xl hover:bg-white hover:text-black">
             Register to Attend
           </button>
-          <button className="px-6 py-3 text-lg bg-[#5e8085] text-white rounded-3xl hover:bg-white hover:text-black">
+          <button className="px-6 py-3 text-lg bg-vibrant border-2 border-black  text-black rounded-3xl hover:bg-white ">
             See Event Schedule
           </button>
         </div>

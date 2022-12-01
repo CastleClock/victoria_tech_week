@@ -21,10 +21,10 @@ const Questions = [
 export default function FAQ() {
   const [selected, setSelected] = useState(0);
   return (
-    <div className=" border border-[#5e8085] bg-white flex flex-col justify-start items-start p-6">
-      <h3 className="font-header text-5xl text-[#5e8085] mb-4">FAQ</h3>
+    <div className=" border border-vibrant bg-white flex flex-col justify-start items-start p-6">
+      <h3 className="font-header text-5xl text-vibrant mb-4">FAQ</h3>
       {Questions.map((document, index) => (
-        <div key={index} className="w-full border-b border-[#5e8085]">
+        <div key={index} className="w-full border-b border-vibrant">
           <button
             onClick={() => setSelected(selected === index ? null : index)}
             className="hover:bg-gray-100 w-full py-4  flex flex-row justify-between"

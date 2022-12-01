@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
           type: "website",
           locale: "en_IE",
           url: "https://Victoriatechweek.com",
-          site_name: "SF Tech Week",
+          site_name: "Victoria Tech Week",
 
           images: [
             {
@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }) {
           ],
         }}
         twitter={{
-          handle: "@sftechweek",
+          handle: "@victechweek",
           cardType: "summary_large_image",
         }}
         additionalMetaTags={[

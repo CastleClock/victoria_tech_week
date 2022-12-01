@@ -24,8 +24,9 @@ export default function Card() {
           <div className="bg-white border border-vibrant p-5">
             <h3 className="font-header text-3xl">Connecting</h3>
             <p className="text-gray-700 text-lg pt-4">
-              Whether you&apos;re seeking a cofounder, a new job or making new
-              friends, SF Tech Week is where connections are made.
+              Connecting Whether you&apos;re seeking a cofounder, a new job, or
+              making new friends, Victoria Tech Week is where connections are
+              made.
             </p>
           </div>
         </div>

@@ -8,11 +8,21 @@ export default function Footer() {
           src="/logo.png"
         />
         <div className="flex flex-row gap-6">
-          <p>Designed by Jackrabbit Ops </p>
+          <p>
+            Designed by{" "}
+            <a
+              href="https://jackrabbitops.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-gray-700"
+            >
+              Jackrabbit Ops{" "}
+            </a>
+          </p>
         </div>
         <div className="flex flex-row items-center gap-4">
           <a
-            href="twitter.com"
+            href="https://twitter.com/victechweek"
             rel="noreferrer"
             target="_blank"
             className="text-black hover:text-gray-700"

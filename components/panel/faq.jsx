@@ -21,7 +21,10 @@ const Questions = [
 export default function FAQ() {
   const [selected, setSelected] = useState(0);
   return (
-    <div className=" border border-vibrant bg-white flex flex-col justify-start items-start p-6">
+    <div
+      id="faq"
+      className=" border border-vibrant bg-white flex flex-col justify-start items-start p-6"
+    >
       <h3 className="font-header text-5xl text-vibrant mb-4">FAQ</h3>
       {Questions.map((document, index) => (
         <div key={index} className="w-full border-b border-vibrant">
@@ -29,7 +32,7 @@ export default function FAQ() {
             onClick={() => setSelected(selected === index ? null : index)}
             className="hover:bg-gray-100 w-full py-4  flex flex-row justify-between"
           >
-            <p className="text-gray-800 text-sm ">{document.q}</p>
+            <p className="text-gray-800 text-sm  font-bold">{document.q}</p>
             <img src="/button.svg" />
           </button>
           {selected === index && (

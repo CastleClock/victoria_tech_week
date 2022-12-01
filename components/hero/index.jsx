@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <div className="relative ">
@@ -30,17 +32,26 @@ export default function Hero() {
         <h1 className="font-header text-5xl lg:text-8xl">
           Victoria <span className="block">Tech Week</span>
         </h1>
-        <div className="flex flex-col lg:flex-row gap-2 lg:gap-6 my-6">
-          <button className="px-6 py-3 lg:text-lg bg-black border-2 border-black  text-white rounded-3xl hover:bg-white hover:text-black">
-            Register to Attend
-          </button>
-          <button className="px-6 py-3 lg:text-lg bg-vibrant border-2 border-black  text-black rounded-3xl hover:bg-white ">
+        <div className="flex flex-col lg:flex-row gap-2 lg:gap-6 my-6 w-max">
+          <Link href="/register">
+            <button className="px-6 py-3 lg:text-lg bg-black border-2 border-black  text-white rounded-3xl hover:bg-white hover:text-black w-full lg:w-max">
+              Register to Attend
+            </button>
+          </Link>
+          <a
+            href="https://lu.ma/victoria-tech-week"
+            target="_blank"
+            rel="noreferrer"
+            className="px-6 py-3 lg:text-lg bg-vibrant border-2 border-black  text-black rounded-3xl hover:bg-white  w-full lg:w-max"
+          >
             See Event Schedule
-          </button>
+          </a>
         </div>
         <p>
           Want to host an event?{" "}
-          <span className="underline font-semibold ">Host an event</span>
+          <Link href="/#host" className="underline font-semibold ">
+            Host an event
+          </Link>
         </p>
       </div>
     </div>

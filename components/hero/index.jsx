@@ -27,7 +27,7 @@ export default function Hero() {
       </div> */}
       <div className="relative max-w-4xl  tracking-widest mx-auto px-4 sm:px-6 py-44 lg:py-32 lg:px-8 flex flex-col  justify-center items-center text-center bg-transparent">
         <p className="font-copy text-vibrant text-xl font-medium pb-4">
-          June 5th - 12th, 2023
+          May 29th - June 2nd, 2023
         </p>
         <h1 className="font-header text-5xl lg:text-8xl">
           Victoria <span className="block">Tech Week</span>

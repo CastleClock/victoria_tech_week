@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <DefaultSeo
         title="Victoria Tech Week"
-        description="Happening in Victoria, June 5-12, 2023"
+        description="Happening in Victoria, May 29th - June 2nd, 2023"
         canonical="https://victoriatechweek.com"
         openGraph={{
           type: "website",

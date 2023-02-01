@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+//COMPONENTS
+import Logos from "../panel/logos";
+
 export default function Hero() {
   return (
     <div className="relative ">
@@ -11,7 +14,7 @@ export default function Hero() {
         />
         <div className="absolute inset-0  mix-blend-multiply " />
       </div>
-      <div className="absolute inset-0  opacity-20 ">
+      <div className="absolute inset-0  opacity-20 z-0 ">
         <img
           className="h-full w-full  translate-y-24 object-cover "
           src="/skyLine.svg"
@@ -22,9 +25,6 @@ export default function Hero() {
       <div className="h-8 w-full absolute top-0 left-0 bg-gradient-to-t to-[#FFFCF1] from-transparent">
         {" "}
       </div>
-      {/* <div className="h-8 w-full absolute bottom-0 left-0 bg-gradient-to-b from-transparent to-[#FFFCF1]">
-        {" "}
-      </div> */}
       <div className="relative max-w-4xl  tracking-widest mx-auto px-4 sm:px-6 py-44 lg:py-32 lg:px-8 flex flex-col  justify-center items-center text-center bg-transparent">
         <p className="font-copy text-vibrant text-xl font-medium pb-4">
           May 29th - June 2nd, 2023
@@ -54,6 +54,8 @@ export default function Hero() {
           </Link>
         </p>
       </div>
+      <Logos />
+
     </div>
   );
 }

@@ -15,7 +15,7 @@ const Questions = [
   },
   {
     q: "I want to host an event, what do I do?",
-    a: "Submit details of the event to Luma page or send email with event details to events@scaleyyj.com, or reach out via twitter",
+    a: "Submit details of the event to Form page or reach out via twitter",
   },
 ];
 export default function FAQ() {

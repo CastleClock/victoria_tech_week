@@ -8,7 +8,7 @@ export default function Navigation() {
         </Link>
         <div className="hidden lg:flex flex-row gap-6">
           <a
-            href="https://lu.ma/victoria-tech-week"
+            href="https://lu.ma/scaleyyj"
             target="_blank"
             rel="noreferrer"
             className="hover:text-vibrant"
@@ -16,7 +16,14 @@ export default function Navigation() {
             Schedule
           </a>
           <Link href="/#faq">FAQ </Link>
-          <Link href="/#host">Host Event </Link>
+          <a
+            href="https://forms.gle/v8XYcx8D4V9LQ2ga8"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-vibrant"
+          >
+            Host Event
+          </a>
         </div>
         <div className="flex flex-row items-center gap-4">
           <a

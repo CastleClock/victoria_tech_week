@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-row items-center gap-4">
           <a
-            href="https://twitter.com/victechweek"
+            href="https://twitter.com/scaleyyj"
             rel="noreferrer"
             target="_blank"
             className="text-black hover:text-gray-700"

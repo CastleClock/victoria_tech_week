@@ -49,10 +49,10 @@ function MyApp({ Component, pageProps }) {
               alt: "Scale YYJ",
               type: "image/png",
             },
-          ],
+          ],ß
         }}
         twitter={{
-          handle: "@victechweek",
+          handle: "@scaleyyj",
           cardType: "summary_large_image",
         }}
         additionalMetaTags={[

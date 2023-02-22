@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
               alt: "Scale YYJ",
               type: "image/png",
             },
-          ],ß
+          ]
         }}
         twitter={{
           handle: "@scaleyyj",

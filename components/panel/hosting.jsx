@@ -2,7 +2,7 @@ export default function Hosting() {
   return (
     <div id="host" className=" border border-vibrant flex flex-col justify-center items-start p-6 bg-vibrant">
       <h3 className="font-header text-5xl text-white">
-        Hosting a community meetup?
+        Hosting a Scale YYJ Event?
       </h3>
       <div className="flex flex-row gap-6 my-8">
         <p>

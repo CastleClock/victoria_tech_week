@@ -7,7 +7,7 @@ const Questions = [
   },
   {
     q: "Who is organizing Scale YYJ?",
-    a: "VTW is organized by a number of VCs, entrepreneurs, and community leaders in the Victoria Area. See organizers here.",
+    a: "Scale YYJ is organized by a number of local startups, VCs, entrepreneurs, and community leaders in the Victoria Area. See organizers here.",
   },
   {
     q: "What kind of events should I expect? ",

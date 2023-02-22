@@ -10,15 +10,14 @@ export default function Card() {
             <h3 className="font-header text-3xl">Learning</h3>
             <p className="text-gray-700 text-lg pt-4">
               From fire-side chats to expert panels, Scale YYJ is the
-              place for anyone to learn about all things happening in tech and
-              crypto.
+              place for anyone to learn about what it takes to scale your business to the next level
             </p>
           </div>
           <div className="bg-white border border-vibrant p-5">
             <h3 className="font-header text-3xl">Building</h3>
             <p className="text-gray-700 text-lg pt-4">
               Bringing the best builders, operators and entrepreneurs under the
-              same roof.
+              same roof to push Victorian to new heights and break down barriers!
             </p>
           </div>
           <div className="bg-white border border-vibrant p-5">

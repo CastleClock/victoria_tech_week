@@ -9,7 +9,7 @@ export default function Card() {
           <div className="bg-white border border-vibrant p-5">
             <h3 className="font-header text-3xl">Learning</h3>
             <p className="text-gray-700 text-lg pt-4">
-              From fire-side chats to expert panels, Victoria Tech Week is the
+              From fire-side chats to expert panels, Scale YYJ is the
               place for anyone to learn about all things happening in tech and
               crypto.
             </p>
@@ -25,7 +25,7 @@ export default function Card() {
             <h3 className="font-header text-3xl">Connecting</h3>
             <p className="text-gray-700 text-lg pt-4">
               Connecting Whether you&apos;re seeking a cofounder, a new job, or
-              making new friends, Victoria Tech Week is where connections are
+              making new friends, Scale YYJ is where connections are
               made.
             </p>
           </div>

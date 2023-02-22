@@ -18,9 +18,9 @@ export default function Hosting() {
           or send email with event details to{" "}
           <a
             className="text-black underline"
-            href="mailto:events@victoriatechweek.com"
+            href="mailto:events@scaleyyj.com"
           >
-            events@victoriatechweek.com
+            events@scaleyyj.com
           </a>
         </p>
       </div>

@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Victoria Tech Week</title>
+        <title>Scale YYJ</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
@@ -32,21 +32,21 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
       <DefaultSeo
-        title="Victoria Tech Week"
+        title="Scale YYJ"
         description="Happening in Victoria, May 29th - June 2nd, 2023"
-        canonical="https://victoriatechweek.com"
+        canonical="https://scaleyyj.com"
         openGraph={{
           type: "website",
           locale: "en_IE",
-          url: "https://Victoriatechweek.com",
-          site_name: "Victoria Tech Week",
+          url: "https://scaleyyj.com",
+          site_name: "Scale YYJ",
 
           images: [
             {
-              url: `https://victoriatechweek.com${preview.src}`,
+              url: `https://scaleyyj.com${preview.src}`,
               width: preview.width,
               height: preview.height,
-              alt: "Victoria Tech Week",
+              alt: "Scale YYJ",
               type: "image/png",
             },
           ],
@@ -58,9 +58,9 @@ function MyApp({ Component, pageProps }) {
         additionalMetaTags={[
           {
             name: "twitter:image",
-            content: `https://victoriatechweek.com${preview.src}`,
+            content: `https://scaleyyj.com${preview.src}`,
           },
-          { name: "twitter:title", content: "Victoria Tech Week" },
+          { name: "twitter:title", content: "Scale YYJ" },
         ]}
       />
       <Component {...pageProps} />

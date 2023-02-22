@@ -2,11 +2,11 @@ import { useState } from "react";
 
 const Questions = [
   {
-    q: "I’m flying in for Victoria Tech Week. What part of town should I stay in?",
+    q: "I’m flying in for Scale YYJ. What part of town should I stay in?",
     a: " We recommend staying in the downtown Victoria area, which is where most of the events will be held.",
   },
   {
-    q: "Who is organizing Victoria Tech Week?",
+    q: "Who is organizing Scale YYJ?",
     a: "VTW is organized by a number of VCs, entrepreneurs, and community leaders in the Victoria Area. See organizers here.",
   },
   {
@@ -15,7 +15,7 @@ const Questions = [
   },
   {
     q: "I want to host an event, what do I do?",
-    a: "Submit details of the event to Luma page or send email with event details to events@victoriatechweek.com, or reach out via twitter",
+    a: "Submit details of the event to Luma page or send email with event details to events@scaleyyj.com, or reach out via twitter",
   },
 ];
 export default function FAQ() {

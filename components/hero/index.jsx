@@ -30,7 +30,7 @@ export default function Hero() {
           May 29th - June 2nd, 2023
         </p>
         <h1 className="font-header text-5xl lg:text-8xl">
-          Victoria <span className="block">Tech Week</span>
+          SCALE <span className="block">YYJ</span>
         </h1>
         <div className="flex flex-col lg:flex-row gap-2 lg:gap-6 my-6 w-max">
           <Link href="/register">

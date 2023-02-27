@@ -2,8 +2,24 @@ import Link from "next/link";
 
 const HOSTS = [
   {
+    url: "https://tryshift.com/",
+    src: "/shift.svg",
+  },
+  {
+    url: "https://www.thefinancestack.com/",
+    src: "/fstack.svg",
+  },
+  {
     url: "https://jackrabbitops.com/",
     src: "/JRO.png",
+  },
+  {
+    url: "https://www.viatec.ca/",
+    src: "/viatec.png",
+  },
+  {
+    url: "https://getjoni.com/",
+    src: "/joni.png",
   },
 ];
 export default function Logos() {

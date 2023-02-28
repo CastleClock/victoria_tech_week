@@ -33,7 +33,7 @@ export default function FAQ() {
             className="hover:bg-gray-100 w-full py-4  flex flex-row justify-between"
           >
             <p className="text-gray-800 text-sm  font-bold">{document.q}</p>
-            <img src="/button.svg" />
+            <img src="/button.svg" alt="arrow" />
           </button>
           {selected === index && (
             <p className="py-2 text-gray-900 text-sm">{document.a}</p>

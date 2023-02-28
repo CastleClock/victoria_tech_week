@@ -70,7 +70,7 @@ export default function Home() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Scale YYJ Team</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Organized by passionate local founders driven to grow out Victoria's scaling busness community. From Tech to Social Movements; if you are looking to scale; we are here to support!
+            Organized by passionate local founders driven to grow out Victoria&#39;s scaling busness community. From Tech to Social Movements; if you are looking to scale; we are here to support!
           </p>
         </div>
         <ul

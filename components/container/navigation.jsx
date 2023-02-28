@@ -24,6 +24,9 @@ export default function Navigation() {
           >
             Host Event
           </a>
+          <Link href="/organizers">
+            Organizers
+          </Link>
         </div>
         <div className="flex flex-row items-center gap-4">
           <a

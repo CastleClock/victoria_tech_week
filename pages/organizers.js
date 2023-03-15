@@ -9,7 +9,7 @@ const people = [
     companyUrl: "https://www.jackrabbitops.com/",
     imageUrl:
       'https://lh3.googleusercontent.com/pw/AMWts8CxKJQX0P1dueFlVhh6NOdmrt_Qv4u6RMGggvaZrMwMYO4gv0OvmrGd5bMDtTaTG_m0TSAYMFSzoi-OWkEem3haW0g35wnDJKPE67n0pQ7kr5PIgqnlLFZzekCFlHHHfVOKE22oD7vXXO5CxE20qDI=w1921-h1813-no?authuser=0',
-    bio: 'Victoria will be the next big tech scene! I have worked in software in Toronto and SF, and Victoria offers the one thing the future of tech demands; passionate talent outside of software. The barrier to entry into creating highly scalable comes has been greatly reduced. Scale YYJ will break down barriers for our community to nurture high yeild companies!',
+    bio: 'Victoria will be the next big tech scene! I have worked in software in Toronto and SF, and Victoria offers the one thing the future of tech demands; passionate talent outside of software. The barrier to entry into creating highly scalable companies has been greatly reduced! Scale YYJ will break down barriers for our community to nurture high yeild companies!',
     twitterUrl: 'https://twitter.com/junaid_sudo',
     linkedinUrl: 'https://www.linkedin.com/in/junaidaahmad/',
   },

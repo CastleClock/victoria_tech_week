@@ -18,8 +18,7 @@ const people = [
     role: 'CEO',
     company: "Shift",
     companyUrl: "https://tryshift.com/",
-    imageUrl:
-      'https://media.licdn.com/dms/image/D5603AQHMuXQjOCCZ3g/profile-displayphoto-shrink_800_800/0/1667003838039?e=1683158400&v=beta&t=2FAfUc7fYlClhKYuV9ySaDcoYE05nnABGfva0S4vVnE',
+    imageUrl: "/nadia.jpg",
     bio: 'Excited to be part of the ScaleYYJ founding group to help build connections, and break down barriers for more diverse participation in our community. Weve got some incredible businesses here, so I am looking forward to seeing the momentum we can gain throughout this week. ',
     twitterUrl: 'https://twitter.com/NadiaTatlow',
     linkedinUrl: 'https://www.linkedin.com/in/nadiatatlow/',

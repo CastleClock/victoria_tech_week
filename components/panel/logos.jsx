@@ -3,7 +3,7 @@ import Link from "next/link";
 const HOSTS = [
   {
     url: "https://tryshift.com/",
-    src: "/shift.svg",
+    src: "/shift.png",
   },
   {
     url: "https://www.thefinancestack.com/",

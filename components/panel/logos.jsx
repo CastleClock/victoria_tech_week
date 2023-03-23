@@ -24,13 +24,17 @@ const HOSTS = [
 ];
 export default function Logos() {
   return (
-    <div className="bg-black flex flex-row  justify-center items-center py-3 gap-10 relative w-full">
+    <div className="bg-black flex flex-row  flex-wrap justify-center items-center py-3 gap-4 lg:gap-10 relative w-full px-2">
       {HOSTS.map((host, i) => (
         <Link key={i} href={host.url} target="_blank" rel="noreferrer">
-          <img src={host.src} className="h-10 w-auto" alt="host logo" />
+          <img
+            src={host.src}
+            className="h-8 lg:h-10 w-auto mx-auto"
+            alt="host logo"
+          />
         </Link>
       ))}
-      <p className="text-gray-100 text-sm">+ more</p>
+      <p className="text-gray-100 text-xs lg:text-sm">+ more</p>
     </div>
   );
 }

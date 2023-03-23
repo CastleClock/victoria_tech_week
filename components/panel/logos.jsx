@@ -24,7 +24,7 @@ const HOSTS = [
 ];
 export default function Logos() {
   return (
-    <div className="bg-black flex flex-row  justify-center items-center py-3 gap-4 relative">
+    <div className="bg-black flex flex-row  justify-center items-center py-3 gap-10 relative w-full">
       {HOSTS.map((host, i) => (
         <Link key={i} href={host.url} target="_blank" rel="noreferrer">
           <img src={host.src} className="h-10 w-auto" alt="host logo" />

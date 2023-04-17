@@ -21,6 +21,10 @@ const HOSTS = [
     url: "https://getjoni.com/",
     src: "/joni.png",
   },
+  {
+    url: "https://www.cosmogence.com/",
+    src: "/cosmogence.png",
+  },
 ];
 export default function Logos() {
   return (

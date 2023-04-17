@@ -39,7 +39,7 @@ export default function Hero() {
             </button>
           </Link>
           <a
-            href="https://lu.ma/victoria-tech-week"
+            href="https://lu.ma/scaleyyj"
             target="_blank"
             rel="noreferrer"
             className="px-6 py-3 lg:text-lg bg-vibrant border-2 border-black  text-black rounded-3xl hover:bg-white  w-full lg:w-max"

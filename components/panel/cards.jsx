@@ -17,7 +17,7 @@ export default function Card() {
             <h3 className="font-header text-3xl">Building</h3>
             <p className="text-gray-700 text-lg pt-4">
               Bringing the best builders, operators and entrepreneurs under the
-              same roof to push Victorian to new heights and break down barriers!
+              same roof to push Victoria to new heights and break down barriers!
             </p>
           </div>
           <div className="bg-white border border-vibrant p-5">

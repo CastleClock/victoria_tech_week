@@ -33,7 +33,7 @@ export default function Hero() {
           SCALE <span className="block">YYJ</span>
         </h1>
         <div className="flex flex-col lg:flex-row gap-2 lg:gap-6 my-6 w-max">
-          <Link href="/register">
+          <Link href="https://lu.ma/scaleyyj">
             <button className="px-6 py-3 lg:text-lg bg-black border-2 border-black  text-white rounded-3xl hover:bg-white hover:text-black w-full lg:w-max">
               Register to Attend
             </button>

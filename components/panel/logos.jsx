@@ -6,6 +6,10 @@ const HOSTS = [
     src: "/shift.png",
   },
   {
+    url: "https://www.clubkwench.com",
+    src: "/kwench.png",
+  },
+  {
     url: "https://www.thefinancestack.com/",
     src: "/fstack.svg",
   },

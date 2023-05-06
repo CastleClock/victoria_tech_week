@@ -23,7 +23,7 @@ export default function Card() {
           <div className="bg-white border border-vibrant p-5">
             <h3 className="font-header text-3xl">Connecting</h3>
             <p className="text-gray-700 text-lg pt-4">
-              Connecting Whether you&apos;re seeking a cofounder, a new job, or
+              Whether you&apos;re seeking a co-founder, a new job, or
               making new friends, Scale YYJ is where connections are
               made.
             </p>
